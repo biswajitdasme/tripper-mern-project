@@ -2,16 +2,6 @@ import React from 'react';
 
 const Footer = () => (
     <footer className="py-5">
-        <div className="row">
-            <div className="col-2" />
-
-            <div className="col-2" />
-
-            <div className="col-2" />
-
-            <div className="col-4 offset-1" />
-        </div>
-
         <div className="d-flex flex-column flex-md-row justify-content-between py-4 my-4 border-top">
             <p>© 2021 Tripper, Inc. All rights reserved.</p>
             <form className="mb-4 mb-md-0">

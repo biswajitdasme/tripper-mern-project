@@ -4,7 +4,7 @@ const useTours = () => {
     const [tours, setTours] = useState([]);
 
     useEffect(() => {
-        fetch('https://mighty-falls-22636.herokuapp.com/tours')
+        fetch('https://tripper-server.herokuapp.com/tours')
             .then((res) => res.json())
             .then((data) => {
                 setTours(data);
@@ -12,7 +12,7 @@ const useTours = () => {
     }, []);
 
     const submit = (values) => {
-        fetch('https://mighty-falls-22636.herokuapp.com/addservice', {
+        fetch('https://tripper-server.herokuapp.com/addservice', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

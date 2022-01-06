@@ -13,7 +13,7 @@ const BookTour = () => {
     const [tour, setTour] = useState({});
     const { bookTour } = useBookings();
     useEffect(() => {
-        fetch(`https://mighty-falls-22636.herokuapp.com/tours/${id}`)
+        fetch(`https://tripper-server.herokuapp.com/tours/${id}`)
             .then((res) => res.json())
             .then((data) => setTour(data));
     }, [id]);

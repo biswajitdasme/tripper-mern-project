@@ -1,8 +1,8 @@
 import React from 'react';
 import useTours from '../../hooks/useTours';
 import Contact from '../Contact/Contact';
-import Tour from '../Tour/Tour';
 import Gallery from '../Gallery/Gallery';
+import Tour from '../Tour/Tour';
 
 const Home = () => {
     const { tours } = useTours();
@@ -48,7 +48,7 @@ const Home = () => {
                     <span className="visually-hidden">Next</span>
                 </button>
             </section>
-            <section>
+            <section className="container">
                 <h2 className="my-4 text-center">Book Your Destination</h2>
                 <div className="row row-cols-1 row-cols-md-3 g-4">
                     {tours.map((tour) => (

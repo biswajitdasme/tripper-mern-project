@@ -8,7 +8,7 @@ const useBookings = () => {
     const { user } = useAuth();
 
     useEffect(() => {
-        fetch('https://mighty-falls-22636.herokuapp.com/bookings')
+        fetch('https://tripper-server.herokuapp.com/bookings')
             .then((res) => res.json())
             .then((data) => {
                 setBookings(data);
@@ -20,7 +20,7 @@ const useBookings = () => {
     }, [bookings, user.email]);
 
     const bookTour = (data) => {
-        fetch(`https://mighty-falls-22636.herokuapp.com/book`, {
+        fetch(`https://tripper-server.herokuapp.com/book`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -36,7 +36,7 @@ const useBookings = () => {
     const handleDelete = (id) => {
         const check = window.confirm('Are you sure you want to delete this booking?');
         if (check) {
-            fetch(`https://mighty-falls-22636.herokuapp.com/bookings/${id}`, {
+            fetch(`https://tripper-server.herokuapp.com/bookings/${id}`, {
                 method: 'DELETE'
             })
                 .then((res) => res.json())
@@ -49,7 +49,7 @@ const useBookings = () => {
     const handleApproval = (id) => {
         const booking = bookings.find((b) => b._id === id);
         booking.approved = true;
-        fetch(`https://mighty-falls-22636.herokuapp.com/bookings/${id}`, {
+        fetch(`https://tripper-server.herokuapp.com/bookings/${id}`, {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json'

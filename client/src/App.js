@@ -13,7 +13,7 @@ import AuthProvider from './Context/AuthProvider';
 
 function App() {
     return (
-        <div className="container">
+        <div className="container-fluid">
             <AuthProvider>
                 <Router>
                     <Header />

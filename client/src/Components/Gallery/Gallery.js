@@ -8,125 +8,159 @@ const Gallery = () => (
             </div>
 
             <div className="row">
+                <div className="col-lg-6 blue-300">
+                    <div className="card mb-3">
+                        {/* style={{ maxWidth: '540px' }} */}
+                        <div className="row g-0">
+                            <div className="col-md-4">
+                                <img
+                                    src="https://bootstrapmade.com/demo/templates/Anyar/assets/img/team/team-1.jpg"
+                                    className="img-fluid rounded-start"
+                                    alt="..."
+                                />
+                            </div>
+                            <div className="col-md-8">
+                                <div className="card-body text-center">
+                                    <h5 className="card-title">Walter White</h5>
+                                    <p className="card-text">
+                                        <small className="text-muted">
+                                            Chief Executive Officer
+                                        </small>
+                                    </p>
+                                    <p className="card-text">
+                                        <div className="social fs-4 d-flex justify-content-around">
+                                            <a href="/">
+                                                <i className="fab fa-twitter" />
+                                            </a>
+                                            <a href="/">
+                                                <i className="fab fa-facebook" />
+                                            </a>
+                                            <a href="/">
+                                                <i className="fab fa-instagram" />
+                                            </a>
+                                            <a href="/">
+                                                <i className="fab fa-linkedin" />
+                                            </a>
+                                        </div>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div className="col-lg-6 ">
-                    <div className="member d-flex align-items-start">
-                        <div className="pic">
-                            <img
-                                src="https://bootstrapmade.com/demo/templates/Anyar/assets/img/team/team-1.jpg"
-                                className="img-fluid rounded w-75 mx-auto"
-                                alt=""
-                            />
-                        </div>
-                        <div className="member-info">
-                            <h4>Walter White</h4>
-                            <span>Chief Executive Officer</span>
-                            <div className="social fs-4 d-flex justify-content-between">
-                                <a href="/">
-                                    <i className="fab fa-twitter" />
-                                </a>
-                                <a href="/">
-                                    <i className="fab fa-facebook" />
-                                </a>
-                                <a href="/">
-                                    <i className="fab fa-instagram" />
-                                </a>
-                                <a href="/">
-                                    <i className="fab fa-linkedin" />
-                                </a>
+                    <div className="card mb-3">
+                        {/* style={{ maxWidth: '540px' }} */}
+                        <div className="row g-0">
+                            <div className="col-md-4">
+                                <img
+                                    src="https://bootstrapmade.com/demo/templates/Anyar/assets/img/team/team-2.jpg"
+                                    className="img-fluid rounded-start"
+                                    alt="..."
+                                />
+                            </div>
+                            <div className="col-md-8">
+                                <div className="card-body text-center">
+                                    <h5 className="card-title">Sarah Jhonson</h5>
+                                    <p className="card-text">
+                                        <small className="text-muted">Product Manager</small>
+                                    </p>
+                                    <p className="card-text">
+                                        <div className="social fs-4 d-flex justify-content-around">
+                                            <a href="/">
+                                                <i className="fab fa-twitter" />
+                                            </a>
+                                            <a href="/">
+                                                <i className="fab fa-facebook" />
+                                            </a>
+                                            <a href="/">
+                                                <i className="fab fa-instagram" />
+                                            </a>
+                                            <a href="/">
+                                                <i className="fab fa-linkedin" />
+                                            </a>
+                                        </div>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div className="col-lg-6 mt-4 mt-lg-0 ">
-                    <div className="member d-flex align-items-start">
-                        <div className="pic">
-                            <img
-                                src="https://bootstrapmade.com/demo/templates/Anyar/assets/img/team/team-2.jpg"
-                                className="img-fluid rounded w-75 mx-auto"
-                                alt=""
-                            />
-                        </div>
-                        <div className="member-info">
-                            <h4>Sarah Jhonson</h4>
-                            <span>Product Manager</span>
-                            <div className="social fs-4 d-flex justify-content-between">
-                                <a href="/">
-                                    <i className="fab fa-twitter" />
-                                </a>
-                                <a href="/">
-                                    <i className="fab fa-facebook" />
-                                </a>
-                                <a href="/">
-                                    <i className="fab fa-instagram" />
-                                </a>
-                                <a href="/">
-                                    <i className="fab fa-linkedin" />
-                                </a>
+                <div className="col-lg-6 ">
+                    <div className="card mb-3">
+                        {/* style={{ maxWidth: '540px' }} */}
+                        <div className="row g-0">
+                            <div className="col-md-4">
+                                <img
+                                    src="https://bootstrapmade.com/demo/templates/Anyar/assets/img/team/team-3.jpg"
+                                    className="img-fluid rounded-start"
+                                    alt="..."
+                                />
+                            </div>
+                            <div className="col-md-8">
+                                <div className="card-body text-center">
+                                    <h5 className="card-title">William Anderson</h5>
+                                    <p className="card-text">
+                                        <small className="text-muted">CTO</small>
+                                    </p>
+                                    <p className="card-text">
+                                        <div className="social fs-4 d-flex justify-content-around">
+                                            <a href="/">
+                                                <i className="fab fa-twitter" />
+                                            </a>
+                                            <a href="/">
+                                                <i className="fab fa-facebook" />
+                                            </a>
+                                            <a href="/">
+                                                <i className="fab fa-instagram" />
+                                            </a>
+                                            <a href="/">
+                                                <i className="fab fa-linkedin" />
+                                            </a>
+                                        </div>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div
-                    className="col-lg-6 mt-4 aos-init aos-animate"
-                    data-aos="fade-up"
-                    data-aos-delay="300"
-                >
-                    <div className="member d-flex align-items-start">
-                        <div className="pic">
-                            <img
-                                src="https://bootstrapmade.com/demo/templates/Anyar/assets/img/team/team-3.jpg"
-                                className="img-fluid rounded w-75 mx-auto"
-                                alt=""
-                            />
-                        </div>
-                        <div className="member-info">
-                            <h4>William Anderson</h4>
-                            <span>CTO</span>
-                            <div className="social fs-4 d-flex justify-content-between">
-                                <a href="/">
-                                    <i className="fab fa-twitter" />
-                                </a>
-                                <a href="/">
-                                    <i className="fab fa-facebook" />
-                                </a>
-                                <a href="/">
-                                    <i className="fab fa-instagram" />
-                                </a>
-                                <a href="/">
-                                    <i className="fab fa-linkedin" />
-                                </a>
+                <div className="col-lg-6 ">
+                    <div className="card mb-3">
+                        {/* style={{ maxWidth: '540px' }} */}
+                        <div className="row g-0">
+                            <div className="col-md-4">
+                                <img
+                                    src="https://bootstrapmade.com/demo/templates/Anyar/assets/img/team/team-4.jpg"
+                                    className="img-fluid rounded-start"
+                                    alt="..."
+                                />
                             </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="col-lg-6 mt-4">
-                    <div className="member d-flex align-items-start">
-                        <div className="pic">
-                            <img
-                                src="https://bootstrapmade.com/demo/templates/Anyar/assets/img/team/team-4.jpg"
-                                className="img-fluid rounded w-75 mx-auto"
-                                alt=""
-                            />
-                        </div>
-                        <div className="member-info">
-                            <h4>Amanda Jepson</h4>
-                            <span>Accountant</span>
-                            <div className="social fs-4 d-flex justify-content-between">
-                                <a href="/">
-                                    <i className="fab fa-twitter" />
-                                </a>
-                                <a href="/">
-                                    <i className="fab fa-facebook" />
-                                </a>
-                                <a href="/">
-                                    <i className="fab fa-instagram" />
-                                </a>
-                                <a href="/">
-                                    <i className="fab fa-linkedin" />
-                                </a>
+                            <div className="col-md-8">
+                                <div className="card-body text-center">
+                                    <h5 className="card-title">Amanda Jepson</h5>
+                                    <p className="card-text">
+                                        <small className="text-muted">Accountant</small>
+                                    </p>
+                                    <p className="card-text">
+                                        <div className="social fs-4 d-flex justify-content-around">
+                                            <a href="/">
+                                                <i className="fab fa-twitter" />
+                                            </a>
+                                            <a href="/">
+                                                <i className="fab fa-facebook" />
+                                            </a>
+                                            <a href="/">
+                                                <i className="fab fa-instagram" />
+                                            </a>
+                                            <a href="/">
+                                                <i className="fab fa-linkedin" />
+                                            </a>
+                                        </div>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
